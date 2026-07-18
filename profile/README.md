@@ -1,40 +1,79 @@
 <div align="center">
 
+<br>
+
 # mottt-hub
 
-**Self-hosted инфраструктура, боты и инструменты.**
-Всё приватное, всё работает на своём железе.
+**Self-hosted инструменты, боты и автоматизация**
+
+<sub>Python · Node · Shell — всё крутится на своём железе</sub>
+
+<br>
 
 </div>
 
 ---
 
-### Инфраструктура
+<br>
 
-| проект | что делает | живёт на |
-|---|---|---|
-| **[proxy-hub](https://github.com/mottt-hub/proxy-hub)** | Самообучающийся пул бесплатных прокси: сам находит источники, проверяет, отдаёт через REST и ротирующий шлюз | `proxy.morbit.work` |
-| **[Mghost](https://github.com/mottt-hub/Mghost)** | VPN-инфраструктура и обвязка | — |
-| **[infoghostos](https://github.com/mottt-hub/infoghostos)** | База знаний GhostOS | `m.info.ghostos.space` |
+<table>
+<tr>
+<td width="50%" valign="top">
 
-### Боты и автоматизация
+### ⬢ Инфраструктура
 
-| проект | что делает |
-|---|---|
-| **[tg-toolkit](https://github.com/mottt-hub/tg-toolkit)** | Мультитенантный Telegram-инструментарий, изолированные кабинеты |
-| **[tiktok-combine](https://github.com/mottt-hub/tiktok-combine)** | Комбайн автоматизации соцсетей: IG/YT-конвейер, дуал-рельс Cockpit |
-| **[night-archive-bot](https://github.com/mottt-hub/night-archive-bot)** | Ночной архиватор |
+**proxy-hub** · `Python`
+Самообучающийся пул прокси: сам находит источники, проверяет и отдаёт живой пул через REST и ротирующий шлюз. Список источников не зашит — зашит паттерн, по которому источник устроен.
 
-### Инструменты и контент
+**Mghost** · `Shell`
+Инфраструктурная обвязка и деплой.
 
-| проект | что делает |
-|---|---|
-| **[design-os](https://github.com/mottt-hub/design-os)** | Дизайн-система: 17 эстетик, brief → N-designs движок |
-| **[knowledge-hub-premium](https://github.com/mottt-hub/knowledge-hub-premium)** | YouTube/веб → структурированный конспект |
-| **[openclaw-workspace](https://github.com/mottt-hub/openclaw-workspace)** | Рабочее пространство |
+**infoghostos** · `HTML`
+База знаний и документация.
+
+</td>
+<td width="50%" valign="top">
+
+### ⬢ Боты и автоматизация
+
+**tg-toolkit** · `Python`
+Мультитенантный Telegram-инструментарий с изолированными кабинетами.
+
+**tiktok-combine** · `Python`
+Комбайн автоматизации соцсетей: конвейер публикации и панель управления.
+
+**night-archive-bot** · `Python`
+Ночной архиватор.
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### ⬢ Инструменты
+
+**knowledge-hub-premium** · `Python`
+Видео и статьи → структурированный конспект.
+
+**openclaw-workspace** · `Python`
+Рабочее пространство.
+
+</td>
+<td width="50%" valign="top">
+
+### ⬢ Дизайн
+
+**design-os** · `HTML`
+Дизайн-система: библиотека эстетик и генеративный движок «бриф → N вариантов».
+
+</td>
+</tr>
+</table>
+
+<br>
 
 ---
 
 <div align="center">
-<sub>Полный каталог с живым статусом деплоя — <b>hub.morbit.work</b></sub>
+<sub>Репозитории приватные — содержимое доступно участникам организации</sub>
 </div>

@@ -1,79 +1,38 @@
 <div align="center">
 
-<br>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mottt-hub/.github/master/profile/assets/banner-dark.svg?v=fd7eb88f">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mottt-hub/.github/master/profile/assets/banner-light.svg?v=fd7eb88f">
+  <img alt="mottt-hub — self-hosted инструменты, боты и автоматизация" src="https://raw.githubusercontent.com/mottt-hub/.github/master/profile/assets/banner-dark.svg?v=fd7eb88f" width="880">
+</picture>
 
-# mottt-hub
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mottt-hub/.github/master/profile/assets/repos-dark.svg?v=fd7eb88f">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mottt-hub/.github/master/profile/assets/repos-light.svg?v=fd7eb88f">
+  <img alt="Главные проекты по активности за последние 30 дней" src="https://raw.githubusercontent.com/mottt-hub/.github/master/profile/assets/repos-dark.svg?v=fd7eb88f" width="880">
+</picture>
 
-**Self-hosted инструменты, боты и автоматизация**
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mottt-hub/.github/master/profile/assets/activity-dark.svg?v=fd7eb88f">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mottt-hub/.github/master/profile/assets/activity-light.svg?v=fd7eb88f">
+  <img alt="Последние коммиты по всем репозиториям организации" src="https://raw.githubusercontent.com/mottt-hub/.github/master/profile/assets/activity-dark.svg?v=fd7eb88f" width="880">
+</picture>
 
-<sub>Python · Node · Shell — всё крутится на своём железе</sub>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mottt-hub/.github/master/profile/assets/pulse-dark.svg?v=fd7eb88f">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mottt-hub/.github/master/profile/assets/pulse-light.svg?v=fd7eb88f">
+  <img alt="Пульс организации — коммиты по неделям за 12 недель" src="https://raw.githubusercontent.com/mottt-hub/.github/master/profile/assets/pulse-dark.svg?v=fd7eb88f" width="880">
+</picture>
 
-<br>
-
-</div>
-
----
-
-<br>
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-### ⬢ Инфраструктура
-
-**proxy-hub** · `Python`
-Самообучающийся пул прокси: сам находит источники, проверяет и отдаёт живой пул через REST и ротирующий шлюз. Список источников не зашит — зашит паттерн, по которому источник устроен.
-
-**Mghost** · `Shell`
-Инфраструктурная обвязка и деплой.
-
-**infoghostos** · `HTML`
-База знаний и документация.
-
-</td>
-<td width="50%" valign="top">
-
-### ⬢ Боты и автоматизация
-
-**tg-toolkit** · `Python`
-Мультитенантный Telegram-инструментарий с изолированными кабинетами.
-
-**tiktok-combine** · `Python`
-Комбайн автоматизации соцсетей: конвейер публикации и панель управления.
-
-**night-archive-bot** · `Python`
-Ночной архиватор.
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### ⬢ Инструменты
-
-**knowledge-hub-premium** · `Python`
-Видео и статьи → структурированный конспект.
-
-**openclaw-workspace** · `Python`
-Рабочее пространство.
-
-</td>
-<td width="50%" valign="top">
-
-### ⬢ Дизайн
-
-**design-os** · `HTML`
-Дизайн-система: библиотека эстетик и генеративный движок «бриф → N вариантов».
-
-</td>
-</tr>
-</table>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mottt-hub/.github/master/profile/assets/languages-dark.svg?v=fd7eb88f">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mottt-hub/.github/master/profile/assets/languages-light.svg?v=fd7eb88f">
+  <img alt="Языки по объёму кода во всех репозиториях" src="https://raw.githubusercontent.com/mottt-hub/.github/master/profile/assets/languages-dark.svg?v=fd7eb88f" width="880">
+</picture>
 
 <br>
 
----
+<sub>Репозитории приватные — содержимое доступно участникам организации.<br>
+Панели собираются из GitHub API каждые 6 часов; сообщения коммитов проходят фильтрацию перед публикацией.</sub>
 
-<div align="center">
-<sub>Репозитории приватные — содержимое доступно участникам организации</sub>
 </div>

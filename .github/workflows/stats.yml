@@ -1,0 +1,76 @@
+name: Обновление панелей профиля
+
+# Собирает активность приватных репозиториев организации через GitHub API,
+# рендерит SVG-панели и коммитит их обратно в этот репозиторий.
+#
+# Готовые генераторы статистики (github-readme-stats и подобные) здесь
+# бесполезны: все репозитории организации приватные, а токен в публичный README
+# положить нельзя — такие сервисы показали бы нули.
+
+on:
+  schedule:
+    # Каждые 6 часов. Профиль обновляется достаточно часто, чтобы страница
+    # выглядела живой, но не настолько, чтобы засорять историю коммитов.
+    - cron: "17 */6 * * *"
+  workflow_dispatch:
+  push:
+    # Пересборка при изменении самого генератора, иначе правки кода не видны
+    # до следующего запуска по расписанию.
+    branches: [master]
+    paths:
+      - "tools/**"
+      - ".github/workflows/stats.yml"
+
+# Параллельные запуски конфликтовали бы при push в одну ветку.
+concurrency:
+  group: profile-stats
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      # Тесты редактирования — защита от утечки. Панели публичные, репозитории
+      # приватные, поэтому регрессия здесь означает публикацию инфраструктурных
+      # данных. Падение теста должно останавливать сборку до рендера.
+      - name: Проверка фильтрации коммитов
+        run: node tools/test-redact.mjs
+
+      - name: Сбор данных
+        env:
+          GITHUB_TOKEN: ${{ secrets.ORG_STATS_TOKEN }}
+          ORG_NAME: ${{ github.repository_owner }}
+        run: node tools/fetch-data.mjs
+
+      - name: Рендер панелей
+        run: node tools/render.mjs
+
+      - name: Коммит изменений
+        run: |
+          set -euo pipefail
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          # data.json не коммитим: это сырые данные приватных репозиториев,
+          # включая неотфильтрованные сообщения коммитов.
+          git add profile/assets profile/README.md
+
+          if git diff --staged --quiet; then
+            echo "Панели не изменились — коммит не нужен."
+            exit 0
+          fi
+
+          git commit -m "chore(profile): обновление панелей активности"
+
+          # Расписание могло совпасть с ручной правкой репозитория.
+          git pull --rebase --autostash
+          git push

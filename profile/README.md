@@ -1,33 +1,33 @@
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mottt-hub/.github/master/profile/assets/banner-dark.svg?v=abf97c8e">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mottt-hub/.github/master/profile/assets/banner-light.svg?v=abf97c8e">
-  <img alt="mottt-hub — self-hosted инструменты, боты и автоматизация" src="https://raw.githubusercontent.com/mottt-hub/.github/master/profile/assets/banner-dark.svg?v=abf97c8e" width="880">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mottt-hub/.github/master/profile/assets/banner-dark.svg?v=dcd09802">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mottt-hub/.github/master/profile/assets/banner-light.svg?v=dcd09802">
+  <img alt="mottt-hub — self-hosted инструменты, боты и автоматизация" src="https://raw.githubusercontent.com/mottt-hub/.github/master/profile/assets/banner-dark.svg?v=dcd09802" width="880">
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mottt-hub/.github/master/profile/assets/repos-dark.svg?v=abf97c8e">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mottt-hub/.github/master/profile/assets/repos-light.svg?v=abf97c8e">
-  <img alt="Главные проекты по активности за последние 30 дней" src="https://raw.githubusercontent.com/mottt-hub/.github/master/profile/assets/repos-dark.svg?v=abf97c8e" width="880">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mottt-hub/.github/master/profile/assets/repos-dark.svg?v=dcd09802">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mottt-hub/.github/master/profile/assets/repos-light.svg?v=dcd09802">
+  <img alt="Главные проекты по активности за последние 30 дней" src="https://raw.githubusercontent.com/mottt-hub/.github/master/profile/assets/repos-dark.svg?v=dcd09802" width="880">
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mottt-hub/.github/master/profile/assets/activity-dark.svg?v=abf97c8e">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mottt-hub/.github/master/profile/assets/activity-light.svg?v=abf97c8e">
-  <img alt="Последние коммиты по всем репозиториям организации" src="https://raw.githubusercontent.com/mottt-hub/.github/master/profile/assets/activity-dark.svg?v=abf97c8e" width="880">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mottt-hub/.github/master/profile/assets/activity-dark.svg?v=dcd09802">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mottt-hub/.github/master/profile/assets/activity-light.svg?v=dcd09802">
+  <img alt="Последние коммиты по всем репозиториям организации" src="https://raw.githubusercontent.com/mottt-hub/.github/master/profile/assets/activity-dark.svg?v=dcd09802" width="880">
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mottt-hub/.github/master/profile/assets/pulse-dark.svg?v=abf97c8e">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mottt-hub/.github/master/profile/assets/pulse-light.svg?v=abf97c8e">
-  <img alt="Пульс организации — коммиты по неделям за 12 недель" src="https://raw.githubusercontent.com/mottt-hub/.github/master/profile/assets/pulse-dark.svg?v=abf97c8e" width="880">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mottt-hub/.github/master/profile/assets/pulse-dark.svg?v=dcd09802">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mottt-hub/.github/master/profile/assets/pulse-light.svg?v=dcd09802">
+  <img alt="Пульс организации — коммиты по неделям за 12 недель" src="https://raw.githubusercontent.com/mottt-hub/.github/master/profile/assets/pulse-dark.svg?v=dcd09802" width="880">
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mottt-hub/.github/master/profile/assets/languages-dark.svg?v=abf97c8e">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mottt-hub/.github/master/profile/assets/languages-light.svg?v=abf97c8e">
-  <img alt="Языки по объёму кода во всех репозиториях" src="https://raw.githubusercontent.com/mottt-hub/.github/master/profile/assets/languages-dark.svg?v=abf97c8e" width="880">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mottt-hub/.github/master/profile/assets/languages-dark.svg?v=dcd09802">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mottt-hub/.github/master/profile/assets/languages-light.svg?v=dcd09802">
+  <img alt="Языки по объёму кода во всех репозиториях" src="https://raw.githubusercontent.com/mottt-hub/.github/master/profile/assets/languages-dark.svg?v=dcd09802" width="880">
 </picture>
 
 <br>
